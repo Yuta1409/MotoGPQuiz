@@ -127,45 +127,45 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
     private QuestionBank generateQuestions(){
         Question question1 = new Question(
-                "Qui est le créateur de Android?",
+                "Quel pilote de Moto GP est 9 fois champion du monde ?",
                 Arrays.asList(
-                        "Andy Rubin",
-                        "Steve Wozniak",
-                        "Jake Wharton",
-                        "Paul Smith"
+                        "Dani Pedrosa",
+                        "Valentino Rossi",
+                        "Giacomo Agostini",
+                        "Fabio Quartararo"
                 ),
-                0
+                1
         );
 
         Question question2 = new Question(
-                "En quelle année le premier Homme à marcher sur la lune?",
+                "Qui est le détenteur du titre actuellement ?",
                 Arrays.asList(
-                        "1958",
-                        "1962",
-                        "1967",
-                        "1969"
+                        "Marc Marquez",
+                        "Valentino Rossi",
+                        "Jorge Lorenzo",
+                        "Francesco Bagnaia"
                 ),
                 3
         );
 
         Question question3 = new Question(
-                "Quel est le numéro de la maison des Simpsons?",
+                "Quel est le numéro de Valentino Rossi?",
                 Arrays.asList(
-                        "42",
-                        "101",
-                        "666",
-                        "742"
+                        "25",
+                        "8",
+                        "46",
+                        "93"
                 ),
-                3
+                2
         );
 
         Question question4 = new Question(
-                "Combien de fois la France est championne du monde au football?",
+                "Qui est pilote chez l'écurie Yamaha?",
                 Arrays.asList(
-                        "5",
-                        "2",
-                        "3",
-                        "1"
+                        "Jorge Lorenzo",
+                        "Fabio Quartararo",
+                        "Bradley Smith",
+                        "Enea Bastianini"
                 ),
                 1
         );
